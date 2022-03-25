@@ -72,6 +72,14 @@ main {
 .content-right {
   background-color: cadetblue;
   text-align: start;
+  padding: 30px 110px 0 110px;
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+  background-color: aliceblue;
+  border-radius: 20px;
   padding: 30px;
 }
 
