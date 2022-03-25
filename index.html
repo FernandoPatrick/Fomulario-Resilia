@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fomulário</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="	https://www.inscricoes.resilia.dev/wp-content/themes/resilia/media/resilia-logo/resilia-logo.svg"
+        alt="Logo Resilia" title="Logo Resilia">
+    </div>
+    <div class="social-media">
+      <a href="https://www.linkedin.com/school/resilia-educacao/"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://resilia.medium.com/"><img
+          src="https://img.icons8.com/ios-filled/50/000000/medium-monogram--v1.png" /></a>
+      <a href="https://www.facebook.com/resilia.br"><i class="fa-brands fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com/resilia.br/"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </header>
+  <main>
+    <section class="content-left">
+      <h2>Aprenda TUDO o que precisa para começar a trabalhar como Dev Jr.!</h2>
+      <p>Aulas 100% online e ao vivo | 6 meses | + de 500h de conteúdo | Pague depois</p>
+      <div class="video">
+        <iframe width="892" height="448" src="https://www.youtube.com/embed/KJV8uhxaRl8" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="content-right">
+      <h1>Formação Web Dev Resilia</h1>
+      <p>No momento não estamos com processo seletivo aberto, ok? Mas em breve teremos novas turmas. Inscreva-se na
+        lista de espera e fique sabendo em primeira mão.</p>
+      <form action="#">
+        <div class="group">
+          <label for="nome">Nome Completo</label>
+          <input type="text" name="nome" id="nome">
+        </div>
+        <div class="group">
+          <label for="email">E-mail (você usará o mesmo durante todo o processo)</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="group">
+          <label for="tel">Celular/WhatsApp</label>
+          <input type="tel" name="tel" id="tel">
+        </div>
+        <div class="group">
+          <label for="select">Como Você conheceu a Resilia?</label>
+          <select name="select" id="select">
+            <option value="#">---</option>
+            <option vvalue="#">Anuncio no Facebook/Instagram</option>
+            <option value="#">Anuncio no Google ou outros sites</option>
+            <option value="#">Divulgação de alguma empresa parceira</option>
+            <option value="#">Imprensa (jornais. TV, revistas)</option>
+            <option value="#">Indicação de um amigo</option>
+            <option value="#">Panfleto</option>
+            <option value="#">Pesquisa no Google</option>
+          </select>
+          </select>
+        </div>
+        <div class="group">
+          <label for="nome">Você concorda com a nossa <a
+              href="https://www.inscricoes.resilia.dev/politica-de-privacidade/"> Política de privacidade</a></label>
+          <select name="select" id="select">
+            <option value="#">Sim</option>
+            <option value="#">Não</option>
+        </div>
+        <button type="submit">Entrar Para a Lista De Espera!</button>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>
