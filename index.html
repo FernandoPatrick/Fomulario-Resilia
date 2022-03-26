@@ -2,8 +2,9 @@
 <html lang="pt-br">
 
 <head>
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+  <title>Fomulário Resilia</title>
   <meta charset="UTF-8">
-  <title>Fomulário</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400;500;600;700&display=swap"
@@ -17,6 +18,14 @@
 </head>
 
 <body>
+  <div class="icones ">
+    <a class="icone whats"
+      href="https://api.whatsapp.com/send?phone=5521972937230&text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20curso%20da%20Resilia%20e%20como%20conseguir%20um%20emprego.%20"
+      target="blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    </a>
+  </div>
   <header>
     <div class="logo">
       <img src="	https://www.inscricoes.resilia.dev/wp-content/themes/resilia/media/resilia-logo/resilia-logo.svg"
@@ -52,19 +61,19 @@
         <form action="#">
           <div class="group">
             <label for="nome">Nome Completo</label>
-            <input type="text" name="nome" id="nome" placeholder="Nome">
+            <input type="text" name="nome" id="nome" placeholder="Nome" required>
           </div>
           <div class="group">
             <label for="email">E-mail (você usará o mesmo durante todo o processo)</label>
-            <input type="email" name="email" id="email" placeholder="E-mail">
+            <input type="email" name="email" id="email" placeholder="E-mail" required>
           </div>
           <div class="group">
             <label for="tel">Celular/WhatsApp</label>
-            <input type="tel" name="tel" id="tel" placeholder="Celular">
+            <input type="tel" name="tel" id="tel" placeholder="Celular" required>
           </div>
           <div class="group">
-            <label for="select">Como Você conheceu a Resilia?</label>
-            <select name="select" id="select">
+            <label for="select2">Como Você conheceu a Resilia?</label>
+            <select name="select1" id="select" required>
               <option value="#">---</option>
               <option vvalue="#">Anuncio no Facebook/Instagram</option>
               <option value="#">Anuncio no Google ou outros sites</option>
@@ -77,14 +86,16 @@
             </select>
           </div>
           <div class="group">
-            <label for="nome">Você concorda com a nossa <a
+            <label for="select2">Você concorda com a nossa <a
                 href="https://www.inscricoes.resilia.dev/politica-de-privacidade/"> Política de privacidade?</a></label>
-            <select name="select" id="select">
+            <select name="select2" id="select" required>
               <option value="#">Sim</option>
               <option value="#">Não</option>
+            </select>
           </div>
-          <input class="btn" type="submit" value="Entrar Para Lista De Espera!">
-        </form>
+          <button type="submit">Entrar Para Lista De Espera!</button>
+      </div>
+      </form>
       </div>
     </section>
   </main>
