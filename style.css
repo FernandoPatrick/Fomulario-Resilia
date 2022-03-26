@@ -13,6 +13,24 @@ body {
   font-family: 'Archivo', sans-serif;
 }
 
+#popup {
+  animation-name: popup;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes popup {
+  from {
+    transform: translateY(-10px);
+  }
+
+  to {
+    transform: scaleY(0px);
+  }
+}
+
 .icones {
   position: fixed;
   bottom: 40px;
@@ -23,8 +41,9 @@ body {
   font-size: 60px;
   z-index: 1000;
   box-shadow: 2px 2px 2px rgba(182, 46, 5, 0);
-
+  transform: scaleY(-10px);
 }
+
 
 .icone {
   width: 55px;
@@ -159,11 +178,13 @@ main {
   margin-left: 3px;
   outline: none;
   transition: .5s ease-out;
+
 }
 
 .group input:focus {
   letter-spacing: 0.8px;
   font-weight: 500;
+  border: 1px solid #FFD000;
 }
 
 .group select {
@@ -204,6 +225,10 @@ button:hover {
   .video iframe {
     height: 300px;
   }
+
+  label {
+    text-align: start;
+  }
 }
 
 
@@ -215,6 +240,10 @@ button:hover {
 
   .container-left {
     padding: 6px;
+  }
+
+  .video iframe {
+    margin-top: 60px;
   }
 
   .content-right {
@@ -244,7 +273,7 @@ button:hover {
 @media (max-width: 750px) {
   body {
     background: rgb(243, 220, 122);
-    background: radial-gradient(circle, rgba(243, 220, 122, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: radial-gradient(circle, rgba(243, 220, 122, 1) 20%, rgba(255, 255, 255, 0) 100%);
     background-position: top;
   }
 }
