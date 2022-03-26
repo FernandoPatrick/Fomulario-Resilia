@@ -231,7 +231,6 @@ button:hover {
   }
 }
 
-
 @media (max-width: 990px) {
 
   main {
@@ -269,6 +268,8 @@ button:hover {
   .video iframe {
     height: 250px;
   }
+
+  .container-right {}
 }
 
 @media (max-width: 750px) {
