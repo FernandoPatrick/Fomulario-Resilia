@@ -6,7 +6,6 @@
 
 body {
   width: 100%;
-  height: 100vh;
   background: url(https://www.inscricoes.resilia.dev/wp-content/themes/resilia/media/we-teach-you/we-teach-you-line.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -19,6 +18,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 40px;
+  width: 100%;
 }
 
 .social-media a {
@@ -45,13 +45,21 @@ header {
 main {
   display: flex;
   justify-content: center;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .content-left {
-  background-color: aqua;
-  padding: 30px;
+  padding: 10px;
   text-align: center;
-  height: calc(100vh - 110px);
+  flex: 1;
+}
+
+.container-left {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  padding-top: 30px;
 }
 
 .content-left h2 {
@@ -62,25 +70,35 @@ main {
 }
 
 .content-left .video {
-  margin-top: 20px;
+  height: 0;
+  position: relative;
+  background-color: red;
+  margin-top: 10px;
 }
 
 .video iframe {
   border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
 }
 
 .content-right {
-  background-color: cadetblue;
   text-align: start;
-  padding: 30px 110px 0 110px;
+  padding: 0px 30px 30px 30px;
+  flex: 1;
 }
 
-.container {
+.container-right {
   margin: auto;
-  width: 100%;
-  background-color: aliceblue;
-  border-radius: 20px;
-  padding: 30px;
+  background-color: #FFFFFF;
+  max-width: 700px;
+  border-radius: 30px;
+  padding: 40px;
+  -webkit-box-shadow: 0px 0px 37px 11px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 0px 37px 11px rgba(0, 0, 0, 0.19);
 }
 
 .content-right h1 {
@@ -100,4 +118,54 @@ main {
   font-size: 16px;
   color: #707070;
   margin-bottom: 5px;
+}
+
+.group input {
+  width: 100%;
+  border-radius: 5px;
+  height: 40px;
+  border: none;
+  background-color: #F3F3F3db;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  margin-left: 3px;
+  outline: none;
+  transition: .5s all ease-in-out;
+}
+
+.group input:focus {
+  letter-spacing: 0.6px;
+}
+
+.group select {
+  width: 100%;
+  border-radius: 5px;
+  height: 40px;
+  border: none;
+  background-color: #F3F3F3db;
+  margin-bottom: 20px;
+  font-family: inherit;
+  outline: none;
+}
+
+.group .btn {
+  width: 300px;
+  display: block;
+  height: 50px;
+  margin-left: auto;
+  background-color: #FFD000;
+  margin-top: 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.group .btn:hover {
+  background-color: white;
+  border: 2px solid #FFD000;
+  color: #FFD000;
+  cursor: pointer;
+  outline: none;
 }

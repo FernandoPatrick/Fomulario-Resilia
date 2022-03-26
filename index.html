@@ -32,33 +32,35 @@
   </header>
   <main>
     <section class="content-left">
-      <h2>Aprenda TUDO o que precisa para começar a trabalhar como Dev Jr.!</h2>
-      <p>Aulas 100% online e ao vivo | 6 meses | + de 500h de conteúdo | Pague depois</p>
-      <div class="video">
-        <iframe width="892" height="448" src="https://www.youtube.com/embed/KJV8uhxaRl8" title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
+      <div class="container-left">
+        <h2>Aprenda TUDO o que precisa para começar a trabalhar como Dev Jr.!</h2>
+        <p>Aulas 100% online e ao vivo | 6 meses | + de 500h de conteúdo | Pague depois</p>
+        <div class="video">
+          <iframe width="400" height="315" src="https://www.youtube.com/embed/KJV8uhxaRl8" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
       </div>
     </section>
 
     <section class="content-right">
-      <div class="container">
+      <div class="container-right">
         <h1>Formação Web Dev Resilia</h1>
         <p>No momento não estamos com processo seletivo aberto, ok? Mas em breve teremos novas turmas. Inscreva-se na
           lista de espera e fique sabendo em primeira mão.</p>
         <form action="#">
           <div class="group">
             <label for="nome">Nome Completo</label>
-            <input type="text" name="nome" id="nome">
+            <input type="text" name="nome" id="nome" placeholder="Nome">
           </div>
           <div class="group">
             <label for="email">E-mail (você usará o mesmo durante todo o processo)</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" placeholder="E-mail">
           </div>
           <div class="group">
             <label for="tel">Celular/WhatsApp</label>
-            <input type="tel" name="tel" id="tel">
+            <input type="tel" name="tel" id="tel" placeholder="Celular">
           </div>
           <div class="group">
             <label for="select">Como Você conheceu a Resilia?</label>
@@ -76,12 +78,12 @@
           </div>
           <div class="group">
             <label for="nome">Você concorda com a nossa <a
-                href="https://www.inscricoes.resilia.dev/politica-de-privacidade/"> Política de privacidade</a></label>
+                href="https://www.inscricoes.resilia.dev/politica-de-privacidade/"> Política de privacidade?</a></label>
             <select name="select" id="select">
               <option value="#">Sim</option>
               <option value="#">Não</option>
           </div>
-          <button type="submit">Entrar Para a Lista De Espera!</button>
+          <input class="btn" type="submit" value="Entrar Para Lista De Espera!">
         </form>
       </div>
     </section>
