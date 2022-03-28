@@ -115,6 +115,11 @@ main {
   font-weight: 700;
 }
 
+.content-left span {
+  text-decoration: underline;
+  text-decoration-color: #ffd000;
+}
+
 .content-left .video {
   height: 0;
   position: relative;
@@ -157,6 +162,7 @@ main {
 
 .content-right p {
   margin-bottom: 40px;
+  color: #707070;
 }
 
 .content-right label {
