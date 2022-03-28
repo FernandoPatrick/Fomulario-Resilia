@@ -59,7 +59,7 @@
         <h1>Formação Web Dev Resilia</h1>
         <p>No momento não estamos com processo seletivo aberto, ok? Mas em breve teremos novas turmas. Inscreva-se na
           lista de espera e fique sabendo em primeira mão.</p>
-        <form action="#">
+        <form name="form1">
           <div class="group">
             <label for="nome">Nome Completo</label>
             <input type="text" name="nome" id="nome" placeholder="Nome" required>
@@ -70,7 +70,9 @@
           </div>
           <div class="group">
             <label for="cpf">CPF</label>
-            <input type="text" name="cpf" id="cpf" placeholder="CPF" required>
+            <input type="text" id="RegraValida" value="" name="RegraValida"
+              onkeydown="javascript: fMasc( this, mCPF );"><input type="submit" value="Validar" onclick="ValidaCPF();">
+
           </div>
           <div class="group">
             <label for="email">E-mail (você usará o mesmo durante todo o processo)</label>
@@ -78,7 +80,7 @@
           </div>
           <div class="group">
             <label for="tel">Celular/WhatsApp</label>
-            <input type="tel" name="tel" id="tel" placeholder="Celular" required>
+            <input type="text" name="telefone" id="telefone" maxlength="15" />
           </div>
           <div class="group">
             <label for="select2">Como Você conheceu a Resilia?</label>
@@ -104,11 +106,12 @@
             </select>
           </div>
           <button type="submit">Entrar Para Lista De Espera!</button>
-      </div>
-      </form>
+        </form>
       </div>
     </section>
   </main>
 </body>
+
+<script src="script.js"></script>
 
 </html>
