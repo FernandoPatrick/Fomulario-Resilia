@@ -35,8 +35,7 @@
     <div class="social-media">
       <a href="https://www.linkedin.com/school/resilia-educacao/" target="blank"><i
           class="fa-brands fa-linkedin"></i></a>
-      <a href="https://resilia.medium.com/" target="blank"><img
-          src="https://img.icons8.com/ios-filled/50/000000/medium-monogram--v1.png" /></a>
+      <a href="https://resilia.medium.com/" target="blank"><i class="fa-brands fa-medium"></i></a>
       <a href="https://www.facebook.com/resilia.br" target="blank"><i class="fa-brands fa-facebook-square"></i></a>
       <a href="https://www.instagram.com/resilia.br/" target="blank"><i class="fa-brands fa-instagram"></i></a>
     </div>
@@ -67,12 +66,13 @@
           </div>
           <div class="group">
             <label for="date">Data de Nascimento</label>
-            <input type="date" name="date" id="date" placeholder="Data de Nascimento" required>
+            <input placeholder="Data de Nascimento" type="text" onfocus="(this.type='date')" onblur="(this.type='text')"
+              id="date">
           </div>
           <div class="group">
             <label for="cpf">CPF</label>
-            <input type="text" id="RegraValida" value="" name="RegraValida"
-              onkeydown="javascript: fMasc( this, mCPF );">
+            <input type="text" id="RegraValida" value="" name="RegraValida" onkeydown="javascript: fMasc( this, mCPF );"
+              placeholder="000.000.000-00">
 
           </div>
           <div class="group">

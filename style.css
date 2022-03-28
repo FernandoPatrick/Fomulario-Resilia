@@ -68,21 +68,17 @@ header {
   width: 100%;
 }
 
-.social-media a {
-  margin-bottom: 0;
-}
-
-.social-media img {
-  width: 19px;
-  margin-right: 10px;
-  margin-bottom: -2px;
-}
+/* .social-media a .medium {
+  background-color: black;
+  color: white;
+} */
 
 .social-media a i {
   font-size: 1.2rem;
   color: black;
   margin-right: 10px;
   transition: 0.3s all ease-in-out;
+
 }
 
 .social-media a i:hover {
