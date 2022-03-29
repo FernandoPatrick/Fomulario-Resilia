@@ -69,11 +69,6 @@ header {
   margin-bottom: 40px;
 }
 
-/* .social-media a .medium {
-  background-color: black;
-  color: white;
-} */
-
 .social-media a i {
   font-size: 1.2rem;
   color: black;
@@ -287,8 +282,19 @@ button:hover {
     font-size: 50px;
   }
 
+
   .icone {
     width: 45px;
     height: 45px;
+  }
+}
+
+@media (max-width: 375px) {
+  header {
+    padding: 40px 25px;
+  }
+
+  .social-media a i {
+    padding: 8px;
   }
 }
