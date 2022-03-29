@@ -46,8 +46,8 @@ body {
 
 
 .icone {
-  width: 55px;
-  height: 55px;
+  width: 52px;
+  height: 52px;
   color: white;
   display: flex;
   align-items: center;
@@ -152,8 +152,9 @@ main {
 .content-right h1 {
   margin-bottom: 20px;
   color: #0B0B0B;
-  font-size: 39px;
+  font-size: 40px;
   font-weight: 700;
+  margin-top: 15px;
 }
 
 .content-right p {
@@ -172,7 +173,7 @@ main {
 .group input {
   width: 100%;
   border-radius: 5px;
-  height: 50px;
+  height: 45px;
   border: none;
   background-color: #F3F3F3db;
   margin-bottom: 20px;
