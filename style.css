@@ -262,13 +262,6 @@ button:hover {
   }
 }
 
-@media (max-width: 476px) {
-  .video iframe {
-    height: 250px;
-  }
-
-}
-
 @media (max-width: 750px) {
   body {
     background: rgb(243, 220, 122);
@@ -276,6 +269,18 @@ button:hover {
     background-position: top;
   }
 }
+
+@media (max-width: 476px) {
+  .video iframe {
+    height: 250px;
+  }
+
+  .content-right h1 {
+    font-size: 20px;
+  }
+
+}
+
 
 @media (max-width: 420px) {
   .icones {
@@ -291,7 +296,7 @@ button:hover {
 
 @media (max-width: 375px) {
   header {
-    padding: 40px 25px;
+    padding: 40px 10px;
   }
 
   .social-media a i {
