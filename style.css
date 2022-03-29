@@ -292,9 +292,7 @@ button:hover {
     width: 45px;
     height: 45px;
   }
-}
 
-@media (max-width: 375px) {
   header {
     padding: 40px 10px;
   }
