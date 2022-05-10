@@ -1,7 +1,7 @@
 # Fomulario-Resilia
 Atividade 1 do primeiro Módulo do curso de Formação  Web Dev Resilia
 
-O projeto consiste em criar um fomulário para abertura de novas turmas. Utilizei como base formulário do própio site da Resilia e acrescentei os campos que foram solicitados na atividade.
+O projeto consiste em criar um fomulário para abertura de novas turmas. Utilizei como base formulário do própio site da Resilia e acrescentei os campos que foram solicitados na atividade assim como a responsividade.
 
 https://fernandopatrick.github.io/Fomulario-Resilia/
 
